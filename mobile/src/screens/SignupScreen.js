@@ -10,6 +10,10 @@ const SignupScreen = (props) => {
   const handleSignup = () => {
     //FAÇA A VERIFICAÇÃO SE O EMAIL E SENHA CONTÉM @gmail ou @hotmail
     //Se quiser apagar faça então o nescessário eu não sabia se vocês preferem colocar no front ou no back isso.
+
+    //!!!!!
+    
+    //TAMBÉM FALTA FAZER O NAVEGAMENTO DA TELA SIGNIN E SIGNUP PRA MAINMENUSCREEN
     if (email === '' || password !== confirmPassword) {
       setError('Formato de email ou confirmação de senha incorreto, tente novamente!');
     } else {

@@ -9,6 +9,10 @@ const SigninScreen = (props) => {
   const handleSignin = () => {
     //FAÇA A VERIFICAÇÃO SE O EMAIL E SENHA CONTÉM @gmail ou @hotmail
     //Se quiser apagar faça então o nescessário eu não sabia se vocês preferem colocar no front ou no back isso.
+
+    //!!!!!
+    
+    //TAMBÉM FALTA FAZER O NAVEGAMENTO DA TELA SIGNIN E SIGNUP PRA MAINMENUSCREEN
     if (email !== '' || password !== '') {
       setError('Email ou senha incorreta. Tente novamente');
     } else {
